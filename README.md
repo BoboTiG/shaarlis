@@ -1,6 +1,7 @@
 # Shaarlis
 
 The list of shaarlis in the nature.
+It was crafted for [BoboTiG/shaarlimages](https://github.com/BoboTiG/shaarlimages) needs, and could also be used by other projects.
 
 Direct link to the list:
 

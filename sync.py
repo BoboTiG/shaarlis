@@ -15,7 +15,7 @@ BAD = Path("bad.json")
 SHAARLIS = Path("shaarlis.json")
 URLS = [
     ("json", "https://www.ecirtam.net/shaarli-api/feeds?full=1"),
-    ("opml", "https://www.shaarlo.fr/opml.php"),
+    # ("opml", "https://www.shaarlo.fr/opml.php"),
 ]
 UNWANTED_URL_PATH_PARTS = {
     "atom",
@@ -91,7 +91,7 @@ def sanitize_url(url: str) -> str:
 
     path = list(Path(parts.path).parts)
     for unwanted in UNWANTED_URL_PATH_PARTS:
-        with suppress(ValueError):
+        while unwanted in path:
             path.remove(unwanted)
     path = "/".join(path).strip("/")
 

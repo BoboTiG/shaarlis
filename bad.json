@@ -6,8 +6,10 @@
     "http://www.angeraph.fr/cgi-sys/suspendedpage.cgi?do=rss",
     "https://angeraph.fr/cgi-sys/suspendedpage.cgi?do=rss",
     "https://blog.aurelien.rocsaliere.org/yunohost/sso?do=rss",
+    "http://aurelien.rocsaliere.org/dÃ©coupages?do=rss",
     "https://julien.mailleret.fr/yunohost/admin?do=rss",
     "https://oniricorpe.eu/404.php?do=rss",
     "https://sajous.net/yunohost/sso?do=rss",
+    "https://www.f.0x2501.org/s?do=rss",
     "https://yuno.librement-votre.fr/yunohost/sso?do=rss"
 ]

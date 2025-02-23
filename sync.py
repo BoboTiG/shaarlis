@@ -15,7 +15,10 @@ BAD = Path("bad.json")
 SHAARLIS = Path("shaarlis.json")
 URLS = [
     ("json", "https://www.ecirtam.net/shaarli-api/feeds?full=1"),
+    ("json", "https://flow.2038.net/api/feeds?full=1"),
+    ("json", "https://links.shikiryu.com/api/feeds?full=1"),
     # ("opml", "https://www.shaarlo.fr/opml.php"),
+    ("opml", "https://links.shikiryu.com/api/feeds?format=opml"),
 ]
 UNWANTED_URL_PATH_PARTS = {
     "atom",
